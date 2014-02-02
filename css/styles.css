@@ -1,3 +1,27 @@
 body {
-	background: orange;
+	background: #2e2e2e;
+}
+
+img {
+	width: 100%;
+	margin: 20px 0 0 0;
+	padding: 0;
+	border-radius:  20px 0 20px 0;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	background: rgba(128,128,128, 0.8);
+	width: 405px;
+	padding: 10px 0;
+	border-radius: 0 20px 0 20px;
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+.text_box {
+	margin: 20px 0 0 0;
+	background: rgba(128,128,128, 0.8);
+	padding: 20px;
+	border-radius: 0 20px 0 20px;
 }
