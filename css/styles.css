@@ -1,17 +1,19 @@
 body {
 	background: #2e2e2e;
+	color: #2e2e2e;
+	font-family: 'Lato', sans-serif;
 }
 
 img {
 	width: 100%;
 	margin: 20px 0 0 0;
 	padding: 0;
-	border-radius:  20px 0 20px 0;
+	border-radius: 20px 0 20px 0;
 }
 
 h1 {
 	font-family: 'Lato', sans-serif;
-	background: rgba(128,128,128, 0.8);
+	background: orange;
 	width: 405px;
 	padding: 10px 0;
 	border-radius: 0 20px 0 20px;
@@ -19,9 +21,56 @@ h1 {
 	margin: 20px 0 0 0;
 }
 
-.text_box {
+.text_box1 {
 	margin: 20px 0 0 0;
-	background: rgba(128,128,128, 0.8);
-	padding: 20px;
+	background: rgba(78, 144, 207, 0.9);
+	padding: 10px 20px;
 	border-radius: 0 20px 0 20px;
+	height: 385px;
+}
+
+.text_box2 {
+	height: 214px;
+	margin: 20px 0 0 0;
+	background: rgba(193, 82, 97, 0.9);
+	padding: 20px;
+	border-radius: 20px 0 20px 0;
+}
+
+.link_box {
+	height: 210px;
+	margin: 20px 0 0 0;
+	background: rgba(154, 175, 105, 0.9);
+	border-radius: 0 20px 0 20px;
+	padding: 20px;
+}
+
+.link_box > h2 {
+	background: #2e2e2e;
+	width: 405px;
+	padding: 5px 0 5px 10px;
+	color: lightgrey;
+}
+
+li > a {
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+li > a:visited {
+	color: black;
+}
+
+li > a:hover {
+	background: #2e2e2e;
+	color: rgba(154, 175, 105, 0.9);
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	margin: 5px 0 5px 0;
 }
