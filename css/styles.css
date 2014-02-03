@@ -13,7 +13,7 @@ img {
 
 h1 {
 	font-family: 'Lato', sans-serif;
-	background: orange;
+	background: rgb(214, 146, 77);
 	width: 405px;
 	padding: 10px 0;
 	border-radius: 0 20px 0 20px;
@@ -23,7 +23,7 @@ h1 {
 
 .text_box1 {
 	margin: 20px 0 0 0;
-	background: rgba(78, 144, 207, 0.9);
+	background: rgb(78, 144, 207);
 	padding: 10px 20px;
 	border-radius: 0 20px 0 20px;
 	height: 385px;
@@ -32,7 +32,7 @@ h1 {
 .text_box2 {
 	height: 214px;
 	margin: 20px 0 0 0;
-	background: rgba(193, 82, 97, 0.9);
+	background: rgb(193, 82, 97);
 	padding: 20px;
 	border-radius: 20px 0 20px 0;
 }
@@ -40,14 +40,16 @@ h1 {
 .link_box {
 	height: 210px;
 	margin: 20px 0 0 0;
-	background: rgba(154, 175, 105, 0.9);
+	background: rgb(154, 175, 105);
 	border-radius: 0 20px 0 20px;
 	padding: 20px;
 }
 
 .link_box > h2 {
+	position: relative;
+	top: -15px;
 	background: #2e2e2e;
-	width: 405px;
+	width: 385px;
 	padding: 5px 0 5px 10px;
 	color: lightgrey;
 }
@@ -64,13 +66,14 @@ li > a:visited {
 
 li > a:hover {
 	background: #2e2e2e;
-	color: rgba(154, 175, 105, 0.9);
+	color: rgb(154, 175, 105);
 }
 
 ul {
 	list-style: none;
+	margin: 0;
 }
 
 li {
-	margin: 5px 0 5px 0;
+	margin: 10px 0 10px 0;
 }
