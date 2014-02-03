@@ -31,7 +31,9 @@ h1 {
 }
 
 .text_box2 {
-	height: 224px;
+	position: relative;
+	top: 4px;
+	height: 220px;
 	margin: 20px 0 0 0;
 	background: rgb(193, 82, 97);
 	padding: 20px;
@@ -52,13 +54,14 @@ h1 {
 	background: #2e2e2e;
 	width: 385px;
 	padding: 5px 0 5px 10px;
-	color: lightgrey;
+	color: rgb(154, 175, 105);
 }
 
 li > a {
 	text-decoration: none;
 	font-weight: bold;
 	padding: 5px;
+	color: #2e2e2e;
 }
 
 li > a:visited {
